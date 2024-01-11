@@ -3,7 +3,7 @@ The purpose of this program is to simulate and analyze the traffic of a city mod
 
 This document contains instructions on how to use the program.
 
-![Screenshot from 2024-01-11 12-26-21](https://github.com/jsimell/TrafficSimulator/assets/96237825/a8b9f11d-7f64-4621-ab0b-2d2c58dca5b3)
+![Screenshot from 2024-01-11 12-32-31](https://github.com/jsimell/TrafficSimulator/assets/96237825/2cca3dbe-9385-44ee-8412-cb8e183f3316)
 
 # Credits
 This project was developed as a group project in the Aalto University _ELEC-A7151 Object-oriented Programming with C++_ course in 2023. The responsible teacher for the course was Yusein Ali, and the project advisor was Henrik Toikka.
