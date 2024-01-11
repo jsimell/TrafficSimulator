@@ -1,5 +1,5 @@
 # Introduction
-This repository contains a complete C++ program which can be used to simulate and analyze the traffic of a city model inputted as a JSON file. The program utilizes the SFML and QT libraries.
+This repository contains a complete C++ program which can be used to simulate and analyze the traffic of a city model inputted as a JSON file. The program utilizes the SFML and QT libraries and uses CMake for building.
 
 This document contains instructions on how to use the program.
 
