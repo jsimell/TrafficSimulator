@@ -71,7 +71,7 @@ The template:
   "x": vertical_city_size(int),
   "y": horizontal_city_size(int),
   "buildings": [
-    {name(std::string): [building_type(std::string), [x-coordinate(int), y-coordinate(int)]]}
+    {name(string): [building_type(string), [x-coordinate(int), y-coordinate(int)]]}
   ],
   "intersections": [
     [x-coordinate(int), y-coordinate(int)]
@@ -80,7 +80,7 @@ The template:
     [starting_x-coordinate(int), starting_y-coordinate(int), ending_x-coordinate(int), ending_y-coordinate(int)]
     ],
   "persons": [
-    [name(std::string), PersonType(std::string), name_of_workplace(std::string), name_of_home_building(std::string)]
+    [name(string), PersonType(string), name_of_workplace(string), name_of_home_building(string)]
   ],
   "trafficLights": [
     [[x-coordinate(int), y-coordinate(int)], red_and_green_light_duration(int), yellow_light_duration(int)]
