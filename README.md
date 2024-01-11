@@ -1,5 +1,5 @@
 # Introduction
-The purpose of this program is to simulate and analyze the traffic of a city model inputted as a JSON file.
+The purpose of this program is to simulate and analyze the traffic of a city model inputted as a JSON file, utilizing the SFML and QT libraries.
 
 This document contains instructions on how to use the program.
 
