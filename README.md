@@ -44,12 +44,11 @@ During the simulation you can use the commands:
 - `export` Exports the road analysis data to a CSV file
 
 # Files
-1. The .json-files should be placed in the project's root folder (this folder) and some examples are found in this folder as well. 
-2. All of the source code is found in the src folder. 
+1. The .json-files should be placed in the project's root folder.  There are two example files in the root folder: city.json and smallcity.json.
+2. All of the source code is located in the src folder. 
 3. The used libraries can be found in the libs folder.
-4. Test files can be found in the tests folder.
-5. The project plan can be found in the plan folder.
-6. The final project documentation can be found in the doc folder.
+4. Test files are located in the tests folder.
+5. The final project documentation can be found from the doc folder.
 
 # JSON file template for city loading
 The city is loaded from a JSON file which should be located in the root folder of the project. A template for the JSON files is provided below. If the JSON file is invalid, the program will continue asking for a new file until the file is valid. The root folder of this project contains two example JSON files: city.json and smallcity.json.
