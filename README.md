@@ -23,7 +23,7 @@ The simulator requires some additional libraries to be installed. Therefore, the
 **Building and running the program**
   1. Clone the contents of this project folder to your local device.
   2. In the cloned folder, navigate to the build/ folder `cd build`
-  3. Generate makefile with CMake: `cmake ..`
+  3. Generate a makefile with CMake: `cmake ..`
   4. Build the file in the same directory `make`
   5. Navigate to the root folder `cd ..`
   6. Run the file `build/./main`
