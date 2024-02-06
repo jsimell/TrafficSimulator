@@ -16,13 +16,13 @@ The project was developed by:
 
 # Instructions on how to use the program
 **Dependencies:** 
-The simulator requires some additional libraries to be installed, so run these commands in the terminal:
+The simulator requires some additional libraries to be installed. Therefore, the following commands must be run in the terminal before building and running the program:
 1. Linux: `sudo apt-get install libxrandr-dev libxcursor-dev libsfml-dev`
 2. MacOS: `brew install sfml`
 
 **Building and running the program**
-  1. Clone `https://version.aalto.fi/gitlab/karhuj5/traffic-simulator-henrik-toikka-4.git`
-  2. Navigate to the folder `cd build`
+  1. Clone the contents of this project folder to your local device.
+  2. In the cloned folder, navigate to the build/ folder `cd build`
   3. Generate makefile with CMake: `cmake ..`
   4. Build the file in the same directory `make`
   5. Navigate to the root folder `cd ..`
@@ -31,11 +31,13 @@ The simulator requires some additional libraries to be installed, so run these c
 **How to use the simulation:** 
 In the beginning, the program asks for a JSON file name. If the file is not found in the root folder, or if it is invalid, the program will not proceed and it will ask for another file (see the JSON file template and requirements below).
 
-After the JSON file has been successfully loaded, the program asks for a road index to analyze during the simulation. Index i chooses the i:th road listed in the JSON file to be analyzed.
+After the JSON file has been successfully loaded, the program asks for a road index to analyze during the simulation. Index i chooses the i:th road listed in the JSON file.
 
-After choosing the road to be analyzed, the program asks for simulation speed (1, 2, 4, 8, or 16).
+After choosing the road to be analyzed, the program asks for a simulation speed (1, 2, 4, 8, or 16).
 
-After this the program asks if the gui should be enabled or not, and then it will start the simulation.
+After this the program asks if the GUI should be enabled or not. 
+
+After this, the simulation will start.
 
 During the simulation you can use the commands:
 - `status` Prints the current simulation time to the terminal
@@ -44,7 +46,7 @@ During the simulation you can use the commands:
 - `export` Exports the road analysis data to a CSV file
 
 # Files
-1. The .json-files should be placed in the root folder of the project, where two example files can be found as well.
+1. The JSON files should be placed in the root folder of the project, where two example files can be found as well.
 2. All the source code is located in the /src folder. 
 3. The used libraries can be found in the /libs folder.
 4. Test files are located in the /tests folder.
